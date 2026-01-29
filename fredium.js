@@ -10,7 +10,7 @@ async function openMyPage(tab) {
 
     if (result[0].result) {
         const articleURL = tab.url.toString();
-        const freeArticle = "https://freedium.cfd/" + articleURL;
+        const freeArticle = "https://freedium-mirror.cfd/" + articleURL;
         browser.tabs.create({
             url: freeArticle
         });
