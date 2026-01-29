@@ -2,7 +2,7 @@
     "description": "Unlocks Medium articles",
     "manifest_version": 2,
     "name": "Fredium",
-    "version": "1.0",
+    "version": "2.0",
     "icons": {
       "256": "logo.png"
     },
